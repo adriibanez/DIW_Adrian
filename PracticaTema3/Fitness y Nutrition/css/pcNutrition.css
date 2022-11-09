@@ -1,0 +1,141 @@
+body,
+header,
+nav,
+footer,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #fde0d8;
+}
+
+#container {
+    background: #C6FFDD;
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+
+    width: 100%;
+    display: inline-flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navPC {
+    font-size: 2em;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    margin-left: 8%;
+    padding-left: 2%;
+}
+
+#navTablet {
+    display: none;
+}
+
+#navMobile {
+    display: none;
+}
+
+#fondo {
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#titulo {
+    font-weight: bold;
+    color: #904e95;
+    text-align: justify;
+    font-size: 1.27em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+#carousel {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    column-gap: 12%;
+    padding-left: 9%;
+    padding-right: 2%;
+}
+
+article {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 2%;
+}
+
+
+#art1,
+#art2 {
+    padding-right: 4%;
+}
+
+
+#art3 {
+    padding-left: 4%;
+}
+
+#cap1,
+#cap2,
+#cap3 {
+    background: #e96443;
+    background: -webkit-linear-gradient(to right, #904e95, #e96443);
+    background: linear-gradient(to right, #904e95, #e96443);
+
+    width: 124%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-bottom: 1%;
+}
+
+
+#img1,
+#img2,
+#img3 {
+    width: 124%;
+    height: auto;
+}
+
+#subcap1,
+#subcap2,
+#subcap3 {
+    font-size: 0.5em;
+    text-align: justify;
+    background: #e96443;
+    background: -webkit-linear-gradient(to right, #904e95, #e96443);
+    background: linear-gradient(to right, #904e95, #e96443);
+
+    width: 120%;
+    padding: 2%;
+    margin-top: 0.3%;
+    margin-bottom: 5%;
+}
+
+
+footer {
+    background: #C6FFDD;
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}

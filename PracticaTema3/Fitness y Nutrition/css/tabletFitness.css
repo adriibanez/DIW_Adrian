@@ -1,0 +1,114 @@
+body,
+header,
+nav,
+footer,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#container {
+    background-color: black;
+    width: 100%;
+    display: block;
+}
+
+header {
+    padding-left: 33%;
+    padding-right: 33%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navPC {
+    display: none;
+}
+
+#navTablet {
+    font-size: 2em;
+    margin-left: 14%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+
+}
+
+#navMobile {
+    display: none;
+}
+
+#fondo {
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#titulo {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 1.27em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+#carousel {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    column-gap: 12%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+figure {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+
+#fig1,
+#fig2 {
+    position: relative;
+    padding-right: 2%;
+}
+
+#fig3 {
+    padding-left: 2%;
+}
+
+#img1,
+#img2,
+#img3 {
+    width: 230%;
+    height: auto;
+}
+
+#cap1,
+#cap2,
+#cap3 {
+    background-color: rgba(66, 70, 68, 0.5);
+    width: 230%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 10%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
