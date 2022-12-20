@@ -32,14 +32,14 @@
   <!-- Notice that we have added a new detectionMode parameters and also a matrixCodeType one. -->
   <!-- MatrixCodeType is 3x3 because we have created a 3x3 marker before using the online tool  -->
   <a-scene embedded arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
-    <img id="img" src="https://cdn.jsdelivr.net/gh/adriibanez/DIW_Adrian@main/RA/images/doraimon.png">
+    <a-assets>
+      <img id="my-image" src="https://cdn.jsdelivr.net/gh/DAW-2022-2023/DIW@main/Tema%206/Monigote/media/circle.jpg">
     </a-assets>
     <!-- marker id=0 -->
     <a-marker type="barcode" value="0">
-      <a-image gltf-model="#img"></a-image>
+      <a-image src="#my-image"></a-image>
     </a-marker>
 
     <a-entity camera></a-entity>
   </a-scene>
-
 </body>
