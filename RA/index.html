@@ -32,28 +32,14 @@
   <!-- Notice that we have added a new detectionMode parameters and also a matrixCodeType one. -->
   <!-- MatrixCodeType is 3x3 because we have created a 3x3 marker before using the online tool  -->
   <a-scene embedded arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
-    <a-assets>
-      <a-asset-item id="gltf" src="https://cdn.jsdelivr.net/gh/adriibanez/DIW_Adrian@main/RA/images/doraimon.png">
-      </a-asset-item>
+    <img id="img" src="https://cdn.jsdelivr.net/gh/adriibanez/DIW_Adrian@main/RA/images/doraimon.png">
     </a-assets>
     <!-- marker id=0 -->
     <a-marker type="barcode" value="0">
-      <a-entity gltf-model="#gltf"></a-entity>
+      <a-image gltf-model="#img"></a-image>
     </a-marker>
 
     <a-entity camera></a-entity>
   </a-scene>
-
-  <a-scene embedded="" arjs="trackingMethod: best;" class="" inspector="" keyboard-shortcuts="" screenshot=""
-    vr-mode-ui="">
-    <a-marker preset="hiro" id="aframe-scene" position="" rotation="" scale="" visible="" material="" arjs-anchor=""
-      arjs-hit-testing="">
-      <a-image id="test" src="https://cdn.jsdelivr.net/gh/adriibanez/DIW_Adrian@main/RA/images/doraimon.png"
-        position="0 0 0" rotation="-90 0 0" width="" height="" opacity="1" transparent="true" alpha-test="0.2"
-        shader="standard" scale="1 1 1" visible="" material="" geometry="">
-      </a-image>
-    </a-marker>
-  </a-scene>
-
 
 </body>
